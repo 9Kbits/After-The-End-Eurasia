@@ -1,0 +1,92 @@
+#muslim = {
+#	has_coa_on_barony_only = no
+#	graphical_culture = muslimgfx
+#	crusade_cb = crusade
+#	playable = yes
+#	hostile_within_group = yes
+#	
+#	ai_convert_same_group = 2 # always try to convert
+#	ai_convert_other_group = 1 # try to convert if ai_zeal is high
+#	ai_fabricate_claims = no
+#	
+#	color = { 0 0.6 0 }
+#	
+#	interface_skin = { muslim_interface }
+#	
+#	# Names given only to Muslim characters (base names)
+#	male_names = {
+#		Abbas Abdul Abdullah Abolhassan Abu-Bakr Ahmad Akbar Allahyar Ali Ali-Fay Ali-Kolon Ali-Zalil Hasan Hossein Hussayn Ismail Mahmud Mohammed Muammar Muhammad
+#	}
+#	
+#	# Names given only to Muslim characters (base names)
+#	female_names = {
+#		Ayesha Abrar Afifah Anabia Hijrah Hind Hareem Iqra Judi Karida Khadijah Khalidah Khawlah Madeeha Maryam Mariyah Maymunah Mariam Mina Nuwwarrah Qismah Ruqayyah Saba Safaa Safiyyah Salma Shahrazad Sirin Sumaiyah Thuwaibah Umamah Zainab Zubaidah Zainab 
+#	}
+#	
+#	nizari = {
+#		graphical_culture = muslimgfx
+#
+#		icon = #?
+#		heresy_icon = #?
+#		
+#		color = { 0 0.8 0 }
+#		
+#		crusade_name = JIHAD
+#		scripture_name = THE_KORAN
+#		priest_title = IMAM
+#		
+#		high_god_name = GOD_ALLAH
+#		
+#		god_names = {
+#			GOD_ALLAH GOD_THE_GREATEST
+#		}
+#		evil_god_names = {
+#			IBLIS SHAYTAN
+#		}
+#		
+#		can_call_crusade = yes
+#		priests_can_marry = yes
+#		psc_marriage = no
+#		max_wives = 4
+#		matrilineal_marriages = no
+#		
+#		landed_kin_prestige_bonus = yes
+#		attacking_same_religion_piety_loss = yes
+#		uses_jizya_tax = yes
+#		priests_can_marry = yes
+#		priests_can_inherit = yes
+#		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+#		has_heir_designation = yes 
+#		
+#		intermarry = satpanthi
+#		#this should include a lot of intermarry clauses, nizaris are famously open
+#	}
+#	
+#	satpanthi = { #these guys are hindu influenced, we need a good way to represent that
+#		graphical_culture = muslimgfx
+#		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
+#
+#		icon = #??
+#		heresy_icon = #??
+#		
+#		color = { 0.4 0.9 0.0 }
+#		parent = nizari
+#
+#		#custom god names should indicate Hindu influence. Also, they should have access to Diwali and so on
+#
+#		crusade_name = JIHAD
+#
+#		priests_can_marry = yes
+#		psc_marriage = no
+#		#can_call_crusade = yes
+#		max_wives = 4
+#		priests_can_inherit = no
+#		priests_can_marry = yes
+#		
+#		landed_kin_prestige_bonus = yes
+#		attacking_same_religion_piety_loss = yes
+#		uses_jizya_tax = no
+#		
+#		intermarry = nizari
+#	}
+#}
